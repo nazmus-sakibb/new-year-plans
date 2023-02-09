@@ -166,3 +166,33 @@ p {
     align-items: center;
 }
 /* my plans area end */
+
+
+
+/* Call to action area start */
+.cta {
+    padding: 50px 0;
+}
+
+.cta-container {
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cta-content {
+    padding-left: 5%;
+}
+
+.cta-content h3 {
+    font-size: 30px;
+    color: white;
+}
+/* Call to action area end */
