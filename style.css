@@ -171,7 +171,7 @@ p {
 
 /* Call to action area start */
 .cta {
-    padding: 50px 0;
+    padding: 50px 0 100px;
 }
 
 .cta-container {
@@ -196,3 +196,73 @@ p {
     color: white;
 }
 /* Call to action area end */
+
+
+
+/* Footer area start */
+.footer {
+    padding: 100px 0;
+    overflow: hidden;
+    background-color: #151414;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h3,
+p {
+    color: white;
+}
+
+.footer h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.footer h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.subscribe-button {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #F15B22;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-left {
+    width: 40%;
+}
+
+.footer-right input {
+    padding: 15px 0 15px 15px;
+    background-color: #151414;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+/* Footer area end */
