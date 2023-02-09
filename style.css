@@ -194,6 +194,21 @@ p {
 .cta-content h3 {
     font-size: 30px;
     color: white;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #F15B22;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 /* Call to action area end */
 
@@ -255,6 +270,14 @@ p {
 .footer-left {
     width: 40%;
 }
+
+.footer-left .social-icons img {
+    height: 45px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
 
 .footer-right input {
     padding: 15px 0 15px 15px;
