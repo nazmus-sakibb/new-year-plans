@@ -8,6 +8,15 @@ h2, h3, h4 {
     color: #151414;
 }
 
+p {
+    color: #444343;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 
 
 /* Header Area start */
@@ -56,3 +65,104 @@ h2, h3, h4 {
     border: none;
     cursor: pointer;
 }
+
+/* Header Area end */
+
+
+
+/* previous year area start */
+.previous-year {
+    padding: 100px 0;
+}
+
+.previous-year-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous-left img {
+    height: 650px;
+}
+
+.previous-right {
+    width: 40%;
+    overflow: hidden;
+    padding-left: 7%;
+}
+
+.previous-right h3 {
+    width: 70%;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.previous-right p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.previous-right ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: #444343;
+}
+
+.previous-right ul li {
+    margin-bottom: 10px;
+}
+
+.previous-right .list-icon {
+    font-size: 18px;
+    color: #16D887;
+    margin-right: 5px;
+}
+/* previous year area end */
+
+
+
+/* my plans area start */
+.plans {
+    padding-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.plans h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.plans h4 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.plans p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #737272;
+    margin: 0;
+}
+
+.plans img {
+    height: 80px;
+}
+
+.plans-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* my plans area end */
